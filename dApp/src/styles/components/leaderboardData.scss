@@ -1,0 +1,48 @@
+.leaderBoard {
+  // height: 100%;
+  display: grid;
+  grid-template-rows: 45px 110px;
+  border-radius: 20px;
+  place-items: center;
+  overflow: hidden;
+  margin-bottom: 24px;
+  .header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffc068;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  > div:nth-child(2) {
+    background: rgba(255, 243, 226, 1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    > div {
+      margin-top: 10px;
+    }
+  }
+}
+
+.leaderDoge {
+  background: rgba(255, 192, 104, 1);
+  border-radius: 49.06px;
+  display: flex;
+  padding: 3px;
+  margin-bottom: 3px;
+  margin: 0 auto 3px;
+  width: fit-content;
+
+  > span {
+    margin: 2px 8px;
+  }
+}

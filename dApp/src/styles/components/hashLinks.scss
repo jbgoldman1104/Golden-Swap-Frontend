@@ -1,0 +1,51 @@
+.hashLink {
+  display: flex;
+  position: relative;
+  > p {
+    border-radius: 61.76px;
+    padding: 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @media only screen and (max-width: 576px) {
+      padding: 0px 8px;
+    }
+
+    > img {
+      margin-bottom: -2px;
+      margin-right: 10px;
+    }
+  }
+  > img {
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 18px;
+    cursor: pointer;
+  }
+
+  .copy_text {
+    position: absolute;
+    top: 130%;
+    right: 0;
+    background: #c9ffaf;
+    padding: 3px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #37d300;
+    border-radius: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+
+    &.active {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 300ms ease-in-out;
+    }
+  }
+}
+
+.primary {
+  background: rgba(255, 243, 226, 1);
+}

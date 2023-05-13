@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Kanit_Regular";
+  src: url(./assets/fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Kanit-SemiBold";
+  src: url(./assets/fonts/Kanit-SemiBold.ttf);
+}
+
+// $background: linear-gradient(90deg, #fcab26 3.48%, #ffcc3f 50.65%, #ffba31 100% );
+$background: linear-gradient(90deg, #E0E0E0A0 3.48%, #B0B0B0A0 100% );
+// $background: #6cc82a;
+$accentPrimary: #a96300;
+$backgroundLite: #fff3e2;
+$lightOrange: #ffc068;
+$orange: #ffa725;
+$midOrange: #ffe6c6;
+$greenLight: #c9ffaf;
+$greenDark: #37d300;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit_Regular";
+  letter-spacing: 0.03em;
+}
+
+body {
+  font-family: "Kanit_Regular";
+  background: $background;
+  // background-image: url(./assets/images/lemon_bg.png);
+  background-size: contain;
+  // background-repeat: no-repeat;
+  // background: $background;
+  color: #fff;
+}
+
+.backdrop {
+  background: linear-gradient(161.37deg, #1b1d1e 3.48%, #262c2c 107.65%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1090;
+}
+
+.btn_primary {
+  background: $orange;
+  padding: 14px 2em;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff3e2;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 300ms all;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 300ms all;
+  }
+}
+
+.inviteLink_btn {
+  background: #37d300;
+  border: 2px solid #c9ffaf;
+  border-radius: 20px;
+  padding: 14px 2em;
+  outline: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 300ms all;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 300ms all;
+  }
+}
+
+.text_accent_primary_687 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6.87px;
+  line-height: 10px;
+  color: $accentPrimary;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_accent_primary_865 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8.65px;
+  line-height: 13px;
+  color: $accentPrimary;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_accent_primary_11R {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16.45px;
+  color: $accentPrimary;
+  font-family: "Kanit_Regular";
+}
+
+.text_lite_12 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $backgroundLite;
+}
+
+.text_accent_primary_12 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $accentPrimary;
+}
+
+.text_lite_16 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $backgroundLite;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_primary_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: $backgroundLite;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_accent_primary_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: $accentPrimary;
+}
+
+.text_accent_primary_14R {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $accentPrimary;
+  font-family: "Kanit_Regular";
+}
+
+.text_black_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_greendark_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: $greenDark;
+}
+
+.text_greendark_14_normal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $greenDark;
+}
+
+.text_lite_16 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: $backgroundLite;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_accent_primary_10 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #a96300;
+}
+
+.text_accent_primary_22 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: $accentPrimary;
+  font-family: "Kanit-SemiBold";
+}
+
+.text_orange_22 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffa725;
+}
+
+.text_regular_14 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff3e2;
+}
+
+.text_regular_16_w600 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff3e2;
+}
+
+.text_error_14 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f75353;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
