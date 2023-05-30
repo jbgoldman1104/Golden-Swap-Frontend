@@ -1,3 +1,4 @@
+# Golden Swap Frontend
 
 This project contains the main features of the Golden Swap application.
 
