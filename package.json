@@ -1,3 +1,4 @@
+{
   "name": "hardhat-project",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
